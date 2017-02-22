@@ -24,7 +24,6 @@ namespace WebAppForGenerateImage.Controllers
         /// <param name="id">{controller}/{action}/{id}のid部分(この場合はパラメータに当てはまる)</param>
         /// <returns>idのサイトurlが正しい場合、スクリーンショートの画像ファイルを返す</returns>
         [HttpGet]
-        //[HttpPost]
         public ActionResult GenerateImage(string id)
         {
             FileContentResult result;
